@@ -13,6 +13,8 @@
 		18688EC71AF564DF00294E6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18688EC61AF564DF00294E6F /* Images.xcassets */; };
 		18688ECA1AF564DF00294E6F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18688EC81AF564DF00294E6F /* LaunchScreen.xib */; };
 		18688ED61AF564DF00294E6F /* QpostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18688ED51AF564DF00294E6F /* QpostTests.swift */; };
+		18688EE01AF580DD00294E6F /* send.png in Resources */ = {isa = PBXBuildFile; fileRef = 18688EDF1AF580DD00294E6F /* send.png */; };
+		18688EE21AF5818500294E6F /* mathsequations.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18688EE11AF5818500294E6F /* mathsequations.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		18688ECF1AF564DF00294E6F /* QpostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QpostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18688ED41AF564DF00294E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18688ED51AF564DF00294E6F /* QpostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QpostTests.swift; sourceTree = "<group>"; };
+		18688EDF1AF580DD00294E6F /* send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send.png; sourceTree = "<group>"; };
+		18688EE11AF5818500294E6F /* mathsequations.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mathsequations.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		18688EBC1AF564DF00294E6F /* Qpost */ = {
 			isa = PBXGroup;
 			children = (
+				18688EE11AF5818500294E6F /* mathsequations.jpg */,
+				18688EDF1AF580DD00294E6F /* send.png */,
 				18688EBF1AF564DF00294E6F /* AppDelegate.swift */,
 				18688EC11AF564DF00294E6F /* ViewController.swift */,
 				18688EC31AF564DF00294E6F /* Main.storyboard */,
@@ -192,7 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18688EE21AF5818500294E6F /* mathsequations.jpg in Resources */,
 				18688EC51AF564DF00294E6F /* Main.storyboard in Resources */,
+				18688EE01AF580DD00294E6F /* send.png in Resources */,
 				18688ECA1AF564DF00294E6F /* LaunchScreen.xib in Resources */,
 				18688EC71AF564DF00294E6F /* Images.xcassets in Resources */,
 			);
